@@ -177,9 +177,22 @@
 // Overlay's
 .dark-overlay {
     height: 100%;
-    widows: 100%;
+    width: 100%;
     position: absolute;
     top: 0;
     left: 0;
     background-color: rgba(0, 0, 0, 0.75);
+}
+
+
+// Table 
+.table{
+    th, td {
+        padding: 1rem;
+        text-align: left;
+    }
+
+    th {
+        background-color:$light-color;
+    }
 }
